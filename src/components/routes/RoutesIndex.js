@@ -1,7 +1,8 @@
 import React from 'react';
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route, Form} from "react-router-dom";
 import Home from '../pages/Home'
 import About from "../pages/About";
+import ContactForm from "../pages/ContactForm";
 
 const RoutesIndex = () => {
     return (
@@ -9,6 +10,7 @@ const RoutesIndex = () => {
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />}/>
+                <Route path="/contact-form" element={<ContactForm />}/>
             </Routes>
         </>
     );

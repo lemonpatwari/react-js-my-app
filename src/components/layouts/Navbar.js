@@ -21,6 +21,10 @@ const Navbar = () => {
                                     <NavLink to="/about" className="dropdown-item">
                                         About
                                     </NavLink>
+
+                                    <NavLink to="/contact-form" className="dropdown-item">
+                                        Contact Form
+                                    </NavLink>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
